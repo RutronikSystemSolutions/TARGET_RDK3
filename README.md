@@ -2,7 +2,7 @@
 
 Rutronik Development Kit 3 Programmable System-on-Chip CYB06447BZI-BLD53 Board Support Package. 
 
-<img src="images/rdk3_top.jpg" style="zoom:35%;" />
+<img src="images/rdk3_top.jpg" style="zoom:25%;" />
 
 ## Requirements
 
@@ -45,9 +45,7 @@ The CYB06447BZI-BLD53 MCU must be powered from a 2.5V power source to be able to
 
 <img src="images/voltage_switch.jpg" style="zoom:50%;" />
 
-Please note that the “[Secure Policy Configurator](https://www.infineon.com/dgdl/Infineon-ModusToolbox_Secure_Policy_Configurator_1.30_User_Guide-UserManual-v01_00-EN.pdf?fileId=8ac78c8c8386267f0183a960762a5977) 1.20” requires the KitProg3 to be set into the CMSIS-DAP mode. Please press the “PROG MODE” button on the RDK3 board's front side once. The DEBUG D5 yellow led will flash indicating the CMSIS-MODE activated.
 
-<img src="images/prog_mode.jpg" style="zoom:75%;" />
 
 The evaluation board including the software is for testing purposes only and, because it has limited functions and limited resilience, is not suitable for permanent use under real conditions. If the evaluation board is nevertheless used under real conditions, this is done at one’s responsibility; any liability of Rutronik is insofar excluded. 
 
