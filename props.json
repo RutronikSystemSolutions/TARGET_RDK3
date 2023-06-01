@@ -24,6 +24,7 @@
                 "opamp",
                 "psoc6",
                 "qspi",
+                "rdk3",
                 "rtc",
                 "secure_boot",
                 "smart_io",
@@ -31,14 +32,15 @@
                 "sram_288k",
                 "std_crypto",
                 "switch",
-                "uart"
+                "uart",
+                "udb"
             ],
             "dependencies": {
                 "cat1cm0p": "release-v1.0.0",
                 "core-lib": "release-v1.3.1",
-                "core-make": "release-v3.0.2",
-                "mtb-hal-cat1": "release-v2.2.0",
-                "mtb-pdl-cat1": "release-v3.2.0",
+                "core-make": "release-v3.0.3",
+                "mtb-hal-cat1": "release-v2.3.0",
+                "mtb-pdl-cat1": "release-v3.3.1",
                 "recipe-make-cat1a": "release-v2.0.0"
             },
             "docs_dir": "docs",

@@ -48,66 +48,87 @@
                 </Block>
                 <Block location="ioss[0].port[0].pin[2]">
                     <Alias value="ARDU_RX"/>
+                    <Alias value="CYBSP_D6"/>
                 </Block>
                 <Block location="ioss[0].port[0].pin[3]">
                     <Alias value="ARDU_TX"/>
+                    <Alias value="CYBSP_D7"/>
                 </Block>
                 <Block location="ioss[0].port[0].pin[4]">
                     <Alias value="ARDU_IO7"/>
+                    <Alias value="CYBSP_D8"/>
                 </Block>
                 <Block location="ioss[0].port[0].pin[5]">
                     <Alias value="ARDU_IO8"/>
+                    <Alias value="CYBSP_D9"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[0]">
                     <Alias value="ARDU_ADC1"/>
+                    <Alias value="CYBSP_A0"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[1]">
                     <Alias value="ARDU_ADC2"/>
+                    <Alias value="CYBSP_A1"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[2]">
                     <Alias value="ARDU_ADC3"/>
+                    <Alias value="CYBSP_A2"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[3]">
                     <Alias value="ARDU_ADC4"/>
+                    <Alias value="CYBSP_A3"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[4]">
                     <Alias value="ARDU_ADC5"/>
+                    <Alias value="CYBSP_A4"/>
+                    <Alias value="CYBSP_POT"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[5]">
                     <Alias value="ARDU_ADC6"/>
+                    <Alias value="CYBSP_A5"/>
                 </Block>
                 <Block location="ioss[0].port[10].pin[6]">
                     <Alias value="ARDU_IO5"/>
+                    <Alias value="CYBSP_A6"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[0]">
                     <Alias value="ARDU_IO6"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[1]">
                     <Alias value="FLASH_SSEL"/>
+                    <Alias value="CYBSP_QSPI_SS"/>
+                    <Alias value="CYBSP_QSPI_FLASH_SSEL"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[2]">
                     <Alias value="PSRAM_SSEL"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[3]">
                     <Alias value="QSPI_IO3"/>
+                    <Alias value="CYBSP_QSPI_D3"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[4]">
                     <Alias value="QSPI_IO2"/>
+                    <Alias value="CYBSP_QSPI_D2"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[5]">
                     <Alias value="QSPI_IO1"/>
+                    <Alias value="CYBSP_QSPI_D1"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[6]">
                     <Alias value="QSPI_IO0"/>
+                    <Alias value="CYBSP_QSPI_D0"/>
                 </Block>
                 <Block location="ioss[0].port[11].pin[7]">
                     <Alias value="QSPI_CLK"/>
+                    <Alias value="CYBSP_QSPI_SCK"/>
                 </Block>
                 <Block location="ioss[0].port[12].pin[0]">
                     <Alias value="ARDU_SCL"/>
+                    <Alias value="CYBSP_I2C_SCL"/>
                 </Block>
                 <Block location="ioss[0].port[12].pin[1]">
                     <Alias value="ARDU_SDA"/>
+                    <Alias value="CYBSP_I2C_SDA"/>
                 </Block>
                 <Block location="ioss[0].port[12].pin[2]">
                     <Alias value="LOAD_EN"/>
@@ -153,24 +174,58 @@
                 </Block>
                 <Block location="ioss[0].port[13].pin[0]">
                     <Alias value="USER_BTN"/>
+                    <Alias value="CYBSP_USER_BTN"/>
+                    <Alias value="CYBSP_USER_BTN_DRIVE"/>
                 </Block>
                 <Block location="ioss[0].port[13].pin[1]">
                     <Alias value="LED1"/>
+                    <Alias value="CYBSP_USER_LED1"/>
                 </Block>
                 <Block location="ioss[0].port[13].pin[6]">
                     <Alias value="LED2"/>
+                    <Alias value="CYBSP_USER_LED"/>
+                    <Alias value="CYBSP_USER_LED2"/>
                 </Block>
                 <Block location="ioss[0].port[13].pin[7]">
                     <Alias value="LED3"/>
+                    <Alias value="CYBSP_USER_LED3"/>
                 </Block>
+                <Block location="ioss[0].port[1].pin[0]">
+                    <Alias value="CYBSP_D14"/>
+                </Block>
+                <Block location="ioss[0].port[1].pin[1]">
+                    <Alias value="CYBSP_D16"/>
+                </Block>
+                <Block location="ioss[0].port[5].pin[0]">
+                    <Alias value="CYBSP_D0"/>
+                </Block>
+                <Block location="ioss[0].port[5].pin[1]">
+                    <Alias value="CYBSP_D1"/>
+                </Block>
+                <Block location="ioss[0].port[5].pin[2]">
+                    <Alias value="CYBSP_D2"/>
+                </Block>
+                <Block location="ioss[0].port[5].pin[3]">
+                    <Alias value="CYBSP_D3"/>
+                </Block>
+                <Block location="ioss[0].port[5].pin[4]">
+                    <Alias value="CYBSP_D4"/>
+                </Block>
+                <Block location="ioss[0].port[5].pin[5]">
+                    <Alias value="CYBSP_D5"/>
+                </Block>
+                <Block location="ioss[0].port[5].pin[6]"/>
                 <Block location="ioss[0].port[6].pin[0]">
                     <Alias value="KITPROG_RX"/>
+                    <Alias value="CYBSP_DEBUG_UART_RX"/>
                 </Block>
                 <Block location="ioss[0].port[6].pin[1]">
                     <Alias value="KITPROG_TX"/>
+                    <Alias value="CYBSP_DEBUG_UART_TX"/>
                 </Block>
                 <Block location="ioss[0].port[6].pin[4]">
                     <Alias value="TDO_SWO"/>
+                    <Alias value="CYBSP_SWO"/>
                     <Personality template="pin" version="3.0">
                         <Param id="DriveModes" value="CY_GPIO_DM_STRONG_IN_OFF"/>
                         <Param id="initialState" value="1"/>
@@ -201,6 +256,7 @@
                 </Block>
                 <Block location="ioss[0].port[6].pin[6]">
                     <Alias value="TMS_SWDIO"/>
+                    <Alias value="CYBSP_SWDIO"/>
                     <Personality template="pin" version="3.0">
                         <Param id="DriveModes" value="CY_GPIO_DM_PULLUP"/>
                         <Param id="initialState" value="1"/>
@@ -216,6 +272,7 @@
                 </Block>
                 <Block location="ioss[0].port[6].pin[7]">
                     <Alias value="TCLK_SWCLK"/>
+                    <Alias value="CYBSP_SWCLK"/>
                     <Personality template="pin" version="3.0">
                         <Param id="DriveModes" value="CY_GPIO_DM_PULLDOWN"/>
                         <Param id="initialState" value="1"/>
@@ -234,9 +291,12 @@
                 </Block>
                 <Block location="ioss[0].port[7].pin[1]">
                     <Alias value="CINTA"/>
+                    <Alias value="CYBSP_CINA"/>
+                    <Alias value="CYBSP_CMOD"/>
                 </Block>
                 <Block location="ioss[0].port[7].pin[2]">
                     <Alias value="CINTB"/>
+                    <Alias value="CYBSP_CINB"/>
                 </Block>
                 <Block location="ioss[0].port[7].pin[3]">
                     <Alias value="CS2"/>
@@ -249,15 +309,23 @@
                 </Block>
                 <Block location="ioss[0].port[8].pin[0]">
                     <Alias value="ARDU_MOSI"/>
+                    <Alias value="CYBSP_SPI_MOSI"/>
+                    <Alias value="CYBSP_D11"/>
                 </Block>
                 <Block location="ioss[0].port[8].pin[1]">
                     <Alias value="ARDU_MISO"/>
+                    <Alias value="CYBSP_SPI_MISO"/>
+                    <Alias value="CYBSP_D12"/>
                 </Block>
                 <Block location="ioss[0].port[8].pin[2]">
                     <Alias value="ARDU_CLK"/>
+                    <Alias value="CYBSP_SPI_CLK"/>
+                    <Alias value="CYBSP_D13"/>
                 </Block>
                 <Block location="ioss[0].port[8].pin[3]">
                     <Alias value="ARDU_CS"/>
+                    <Alias value="CYBSP_SPI_CS"/>
+                    <Alias value="CYBSP_D10"/>
                 </Block>
                 <Block location="ioss[0].port[8].pin[4]">
                     <Alias value="ARDU_IO1"/>
@@ -314,6 +382,7 @@
                     <Personality template="fll" version="4.0">
                         <Param id="configuration" value="auto"/>
                         <Param id="desiredFrequency" value="100.000"/>
+                        <Param id="enableOutputDivider" value="false"/>
                     </Personality>
                 </Block>
                 <Block location="srss[0].clock[0].hfclk[0]">
