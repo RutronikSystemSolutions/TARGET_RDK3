@@ -36,12 +36,12 @@
                 "udb"
             ],
             "dependencies": {
-                "cat1cm0p": "release-v1.0.0",
-                "core-lib": "release-v1.3.1",
-                "core-make": "release-v3.0.3",
-                "mtb-hal-cat1": "release-v2.3.0",
-                "mtb-pdl-cat1": "release-v3.3.1",
-                "recipe-make-cat1a": "release-v2.0.0"
+                "cat1cm0p": "release-v1.8.0",
+                "core-lib": "release-v1.4.4",
+                "core-make": "release-v3.6.1",
+                "mtb-hal-cat1": "release-v2.7.1",
+                "mtb-pdl-cat1": "release-v3.16.0",
+                "recipe-make-cat1a": "release-v2.5.0"
             },
             "docs_dir": "docs",
             "flow_version": "2.0",

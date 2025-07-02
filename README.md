@@ -4,9 +4,13 @@ Rutronik Development Kit 3 Programmable System-on-Chip CYB06447BZI-BLD53 Board S
 
 <img src="images/rdk3_top.jpg" style="zoom:25%;" />
 
+## **NOTICE**
+
+**Infineon has discontinued the PSOC™ 64 Secured MCU product line. As a result, the CYB06447BZI-BLD53 MCU used in the RDK3 is not recommended for new designs. The Infineon CY8C6347BZI-BLD53 MCU may be considered a suitable alternative.**
+
 ## Requirements
 
-- [ModusToolbox™ software](https://www.cypress.com/products/modustoolbox-software-environment) v3.0
+- [ModusToolbox™ software](https://www.cypress.com/products/modustoolbox-software-environment) v2025.4.0
 
 ## Features
 
